@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(training-gca04602f3_1280.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    padding-left:10px;
+    float: left;
+    padding-top: 10px;
+    transform: translate(-40%,0%);
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-items: center; 
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: #ff7200;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+
+}
+h1{
+    font-family: 'Times New Roman';
+    font-size: 60px;
+    margin-top: 7%;
+    letter-spacing: 2px;
+    line-height: 150%;
+    transform: translate(-6%,5%);
+
+}
+.content span{
+    color:#ff7200;
+    font-size: 100px;
+}
+.logo{
+    padding-top: 30px;
+}
+h2{
+    color: #ff7200;
+    font-size: 50px;
+    font-family: Arial;
+    padding-left:10px;
+    float: left;
+    padding-top: 10px;
+    transform: translate(-65%,0%);
+}
+p{
+    font-size: 30px;
+    transform: translate(-5%,30%);
+}
+.container p{
+    color: #fff;
+}
+.card{
+    background-color: antiquewhite;
+    width: 200px;
+    height: 500px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 20px 50px 10px 30px;
+    transform: translate(300%,-50%);
+    background-size: cover;
+    background-position: center;
+    padding-left: 4%;
+}
+#one{
+    background-image: url(hey.jpg);
+}
+#two{
+    background-image: url(ss.jpg);
+}
+
+#logout_btn{
+    background-color: #ff7200;
+    width: 80px;
+    border-radius: 10px;
+    transform: translate(50%,40%);
+    font-weight: bold;
+}
+#logout_btn:hover{
+    color: #fff;
+}

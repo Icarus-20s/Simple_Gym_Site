@@ -1,0 +1,78 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(brett-jordan-U2q73PfHFpM-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+div.main{
+    width: 250px;
+    margin: 100px auto 0px auto;
+}
+h1{
+    text-align: center;
+    padding: 20px;
+    font-family: sans-serif;
+}
+div.Signup{
+    background-color: rgba(125, 125, 125, 0.182);
+    width: 180%;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.3);;
+    box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+    color: #fff;
+    height: 18cm;
+    width: 10cm;
+}
+form#Signup{
+    margin: 50px;
+
+}
+label{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-style: initial;
+    float: left;
+    padding-left: 20px;
+
+}
+input{
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 10px;
+    padding-top: 2px;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3)
+}
+.submit{
+    height: 30px;
+    width: 120px;
+    position: relative;
+    transform: translate(100%,200%);
+    font-weight: bold;
+    font-style:initial;
+    border: #000;
+    background: #fff;
+}
+.submit{
+    color: #000;
+    text-decoration: none;
+}
+input{
+    transform: translate(10%,40%);
+}
+
+#error_msg
+{
+    font-style: initial;
+    font-weight: bold;
+    font-size: 30px;
+    transform: translate(10%,1500%);
+}
